@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <section id="app">
+            <h1>Apps</h1>
+            <div class="line"></div>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/AmAIOlod-80aGvVFcBdbfjebPGUlVaYjI8ECZcJtZks/embed"></iframe>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/U9AQsuLnTixFr5caYUBM9qmkuaPCvmuWblFMcUPrC14/embed"></iframe>
+        </section>
+
+
+
+        <h2>Click On The Games To Explore</h2>
+
+        <h5>These games are bulid in game lab, click on the game to play</h5>
+
+        <!-- Now the carousel classes will start for applying bootstarp.
+Then the class carousel slide helps to add a CSS transition and animation effect,which makes the items move when the next or previous buttons are clicked.
+-->
+
+        <div id="myCarousel" class="carousel slide">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <!--class item will define the contents of the slide and active means this slide will be shown first when the page loads.-->
+                <div class="item active">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="Winne_Pooh.png" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Winne_Pooh</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="Car_game.png" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Car_game</p>
+                        </div>
+                    </center>
+                </div>
+               
+
+            </div>
+
+            <!-- Left and right controls
+    Then data-ride="carousel" attribute tells Bootstrap to begin animating the carousel immediately when the page loads.-->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+
+
+
+        <h2>Use the chatbots</h2>
+        <h5>These chatbots are bulid in diaglogflow, chat to explore</h5>
+        <div id="myCarouse2" class="carousel slide">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <iframe class="chatbot" allow="microphone;" width="350px" height="400px" src="https://console.dialogflow.com/api-client/demo/embedded/82e2fc96-1906-4bd8-a9d2-84a17f04ea54">
+                        </iframe>
+                        <div class="carousel-content">
+                            <p>Igishka's Chatbot</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <iframe class="chatbot" allow="microphone;" width="350" height="400" src="https://console.dialogflow.com/api-client/demo/embedded/85b4d1a4-a535-480f-9150-86a7aeed4bd1">
+                        </iframe>
+                        <div class="carousel-content">
+                            <p>Einstein's Chatbot</p>
+                        </div>
+                    </center>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarouse2" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarouse2" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
